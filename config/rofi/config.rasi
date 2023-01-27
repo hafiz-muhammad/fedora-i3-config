@@ -1,0 +1,13 @@
+configuration {	 
+	display-window: "Window ";
+	display-drun: "Launch ";
+	display-run: "Run ";
+	display-clipboard: "Clipboard ";
+	modi: "window,run,drun";
+	location: 0;
+ 	font: "FiraCode Nerd Font 12";
+	show-icons: true;
+	icon-theme: "Adwaita";
+ }
+
+@theme "~/.config/rofi/themes/gruvbox-custom.rasi"

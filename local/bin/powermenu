@@ -1,0 +1,15 @@
+#! /bin/sh
+
+# Script is from https://github.com/ericmurphyxyz/dotfiles/blob/master/.local/bin/powermenu
+
+chosen=$(printf " Lock\n Log Out\n⏾ Suspend\n Hibernate\n Reboot\n⭘ Power Off" | rofi -dmenu -i -theme-str '@import "power.rasi"')
+
+case "$chosen" in
+  " Lock") i3lock ;;
+  " Log Out") i3-msg exit ;;
+  "⏾ Suspend") systemctl suspend  ;;
+  " Hibernate") systemctl hibernate ;;
+  " Reboot") reboot ;;
+  "⭘ Power Off") poweroff ;;
+  *) exit 1 ;;
+esac
