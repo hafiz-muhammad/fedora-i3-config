@@ -5,6 +5,9 @@
 
 ![Screenshot](/screenshots/1.png)
 ![Screenshot](/screenshots/2.png)
+
+| Neofetch   |
+|:-------------:|
 ![Neofetch](https://github.com/hafiz-muhammad/neofetch-config/blob/main/images/screenshot.png)
 
 ---
