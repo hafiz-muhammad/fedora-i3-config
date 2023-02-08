@@ -164,7 +164,7 @@ sudo dnf install gvfs*
 
 <br>
 
-## FFmpeg - Installation
+## FFmpeg Installation
 This will also fix laggy video playback in Firefox.
 ```bash
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
@@ -173,7 +173,7 @@ sudo dnf install ffmpeg ffmpeg-libs
 
 <br>
 
-## CUPS - Installation
+## CUPS Installation
 You can directly access the Administration section of the web browser interface by going to http://localhost:631/admin.
 ```bash
 sudo dnf install cups*
@@ -184,7 +184,7 @@ sudo systemctl enable cups.service
 
 <br>
 
-## TLP - Installation
+## TLP Installation
 [TLP Installation](https://linrunner.de/tlp/installation/fedora.html)
 ```bash
 sudo dnf install tlp tlp-rdw
@@ -196,7 +196,7 @@ sudo systemctl mask systemd-rfkill.service systemd-rfkill.socket
 
 <br>
 
-## ZRAM - Installation
+## ZRAM Installation
 ```bash
 sudo dnf install zram zram-generator-defaults zram-generator
 sudo systemctl start zram-swap.service
@@ -218,7 +218,7 @@ sudo ufw default deny incoming
 
 <br>
 
-## ClamAV - Installation
+## ClamAV Installation
 [How to Install ClamAV on Fedora Linux](https://www.linuxcapable.com/install-clamav-on-fedora-linux/)
 ```bash
 sudo dnf upgrade --refresh
