@@ -120,6 +120,10 @@ desktop.
 - [Cryptomator](https://cryptomator.org/) - Encrypt Dropbox, Google Drive, and any other cloud. Cryptomator is free and open source.
 - [Filen](https://filen.io/) - Zero knowledge end-to-end encrypted cloud storage, redefined.
 - [Syncthing](https://syncthing.net/) - A continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
+- [Authenticator](https://flathub.org/apps/details/com.belmoussaoui.Authenticator) - Simple application for generating Two-Factor Authentication Codes.
+  - [gnome-keyring](https://src.fedoraproject.org/rpms/gnome-keyring) - The gnome-keyring session daemon manages passwords and other types of
+secrets for the user, storing them encrypted with a main password.
+Applications can use the gnome-keyring library to integrate with the keyring.
 - [Thunderbird](https://src.fedoraproject.org/rpms/thunderbird) - Mozilla Thunderbird is a standalone mail and newsgroup client.
 - [Ferdium](https://github.com/ferdium/ferdium-app) - All your services in one place, built by the community
 - [VirtualBox](https://www.virtualbox.org/) - Oracle VM VirtualBox is a type-2 hypervisor for x86 virtualization developed by Oracle Corporation.
