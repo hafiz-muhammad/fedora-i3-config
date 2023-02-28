@@ -39,7 +39,7 @@ desktop wallpaper.
 - [GNOME Disks](https://src.fedoraproject.org/rpms/gnome-disk-utility) - GNOME Disks is a graphical front-end for udisks. 
 - [Fedora Media Writer](https://src.fedoraproject.org/rpms/mediawriter) - A tool to write images of Fedora media to portable drives like flash drives or memory cards.
 - [Blueman](https://src.fedoraproject.org/rpms/blueman) - Blueman is a tool to use Bluetooth devices.
-- [lxpolkit]() -
+- [lxpolkit](https://rpmfind.net/linux/rpm2html/search.php?query=config(lxpolkit)) - LXPolkit is a minimalized policykit authentication agent for the LXDE desktop.
 - [CUPS](https://src.fedoraproject.org/rpms/cups) - CUPS printing system provides a portable printing layer for UNIX® operating systems. It has been developed by Apple Inc. to promote a standard printing solution for all UNIX vendors and users. CUPS provides the System V and Berkeley command-line interfaces.
 - [system-config-printer](https://src.fedoraproject.org/rpms/system-config-printer) - system-config-printer is a graphical user interface that allows the user to configure a CUPS printer server.
 - [FFmpeg](https://github.com/FFmpeg/FFmpeg) - FFmpeg is a collection of libraries and tools to process multimedia content such as audio, video, subtitles and related metadata.
