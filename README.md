@@ -53,14 +53,20 @@ unusually rich command set that provides both high-level operations and full acc
 - [Pip](https://developer.fedoraproject.org/tech/languages/python/pypi-installation.html) - Pip is the package installer for Python. You can use pip to install packages from the Python Package Index and other indexes.
 - [Ruby](https://pypi.org/project/ruby/) - A tool for translating text from source grammar to target grammar (context-free) with corresponding dictionary.
 - [Node.js](https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html) - Open-source cross-platform server-side JavaScript runtime environment.
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/) - A free and open-source web browser developed by the Mozilla Foundation.
-- [Brave](https://brave.com/) - Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser.
-- [VSCodium](https://vscodium.com/) - Binary releases of VS Code without MS branding/telemetry/licensing.
-- [Helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
-- [nano](https://www.nano-editor.org/) - GNU nano is a small editor for on the terminal.
 
 ## Compositor
 - [Picom](https://github.com/yshui/picom) - A lightweight compositor for X11.
+
+## Web Browsers
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/) - A free and open-source web browser developed by the Mozilla Foundation. No shady privacy policies or back doors for advertisers. Just a lightning fast browser that doesn’t sell you out.
+- [Brave](https://brave.com/) - The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
+
+## Text Editors & IDEs
+- [Helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
+- [nano](https://www.nano-editor.org/) - GNU nano is a small editor for on the terminal.
+- [VSCodium](https://vscodium.com/) - Binary releases of VS Code without MS branding/telemetry/licensing.
+- [Geany](https://src.fedoraproject.org/rpms/geany) - Geany is a small and fast integrated development environment with basic
+features and few dependencies to other packages or Desktop Environments.
 
 ## Optimization
 - [TLP](https://linrunner.de/tlp/) - Optimize Linux Laptop Battery Life
@@ -132,6 +138,15 @@ Applications can use the gnome-keyring library to integrate with the keyring.
 - [GIMP](https://www.gimp.org/) - A free and open-source raster graphics editor.
 - [Inkscape](https://inkscape.org/) - A free and open-source vector graphics editor used to create vector images.
 - [Krita](https://krita.org/en/) - A free and open source painting program.
+- [BleachBit](https://src.fedoraproject.org/rpms/bleachbit) - Delete traces of your computer activity and other junk files to free
+disk space and maintain privacy.
+- [PeaZip](https://flathub.org/apps/details/io.github.peazip.PeaZip) - PeaZip is free file archiver utility, based on Open Source technologies of 7-Zip, p7zip, Brotli, FreeArc, PAQ, Zstandard, and PEA projects. Cross-platform, full-featured but user-friendly alternative to WinRar, WinZip and similar general purpose archive manager applications, open and extract 200+ archive formats: 001, 7Z, ACE, ARC, ARJ, BR, BZ2, CAB, DMG, GZ, ISO, LHA, PAQ, PEA, RAR, TAR, UDF, WIM, XZ, ZIP, ZIPX, ZST - view full list of supported archive file formats for archiving and for extraction.
+- [Joplin](https://joplinapp.org/) - A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
+- [Metadata Cleaner](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner) - View and clean metadata in files.
+- [qBittorrent](https://src.fedoraproject.org/rpms/qbittorrent) - A Bittorrent client using rb_libtorrent and a Qt6 Graphical User Interface. It aims to be as fast as possible and to provide multi-OS, unicode support.
+- [GitHub Desktop](https://flathub.org/apps/details/io.github.shiftey.Desktop) - This version of GitHub Desktop is a fork that adds support for Linux.
+- [LibreOffice](https://src.fedoraproject.org/rpms/libreoffice) - LibreOffice is an Open Source, community-developed, office productivity suite.
+It includes the key desktop applications, such as a word processor, spreadsheet, presentation manager, formula editor and drawing program, with a user interface and feature set similar to other office suites.  Sophisticated and flexible, LibreOffice also works transparently with a variety of file formats, including Microsoft Office File Formats.
 --
 
 <br>
