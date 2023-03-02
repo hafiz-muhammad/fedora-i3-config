@@ -282,6 +282,8 @@ For Intel UHD 620 or 630 add `Option "TripleBuffer" "true"` to make `TearFree` w
 
 Then reboot.
 
+<br>
+
 ## NVIDIA Screen Tearing Fix
 Install nvidia-settings and run it as sudo.
 ```bash
