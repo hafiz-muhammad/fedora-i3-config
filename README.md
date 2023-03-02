@@ -152,37 +152,6 @@ It includes the key desktop applications, such as a word processor, spreadsheet,
 
 <br>
 
-## Intel Screen Tearing Fix
-More information on the [ArchWiki](https://wiki.archlinux.org/title/intel_graphics#Tearing).\
-Create a configuration file in `/etc/X11/xorg.conf.d` named `20-intel.conf`
-```bash
-sudo touch /etc/X11/xorg.conf.d/20-intel.conf
-```
-Add the following to the new configuration file:
-```bash
-Section "Device"
-  Identifier "Intel Graphics"
-  Driver "Intel"
-  Option "TearFree" "true"
-EndSection
-```
-`TearFree` may not work when `SwapbuffersWait` is `false`.\
-For Intel UHD 620 or 630 add `Option "TripleBuffer" "true"` to make `TearFree` work.
-
-Then reboot.
-
-## NVIDIA Screen Tearing Fix
-Install nvidia-settings and run it as sudo.
-```bash
-sudo dnf install nvidia-settings && nvidia-settings
-```
-- Go to **X Server Display Configuration > Advanced**
-- Enable **Force Full Composition Pipeline**
-- Apply and Save to Configuration File.
-- Reboot
-
-<br>
-
 ## Enable [RPM Fusion](https://rpmfusion.org/) Repositories
 #### Free Repository
 ```bash
@@ -291,3 +260,34 @@ sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-open
 sudo dnf install lame\* --exclude=lame-devel
 sudo dnf group upgrade --with-optional Multimedia
 ```
+
+<br>
+
+## Intel Screen Tearing Fix
+More information on the [ArchWiki](https://wiki.archlinux.org/title/intel_graphics#Tearing).\
+Create a configuration file in `/etc/X11/xorg.conf.d` named `20-intel.conf`
+```bash
+sudo touch /etc/X11/xorg.conf.d/20-intel.conf
+```
+Add the following to the new configuration file:
+```bash
+Section "Device"
+  Identifier "Intel Graphics"
+  Driver "Intel"
+  Option "TearFree" "true"
+EndSection
+```
+`TearFree` may not work when `SwapbuffersWait` is `false`.\
+For Intel UHD 620 or 630 add `Option "TripleBuffer" "true"` to make `TearFree` work.
+
+Then reboot.
+
+## NVIDIA Screen Tearing Fix
+Install nvidia-settings and run it as sudo.
+```bash
+sudo dnf install nvidia-settings && nvidia-settings
+```
+- Go to **X Server Display Configuration > Advanced**
+- Enable **Force Full Composition Pipeline**
+- Apply and Save to Configuration File.
+- Reboot
