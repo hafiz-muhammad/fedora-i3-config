@@ -149,7 +149,27 @@ disk space and maintain privacy.
 - [GitHub Desktop](https://flathub.org/apps/details/io.github.shiftey.Desktop) - This version of GitHub Desktop is a fork that adds support for Linux.
 - [LibreOffice](https://src.fedoraproject.org/rpms/libreoffice) - LibreOffice is an Open Source, community-developed, office productivity suite.
 It includes the key desktop applications, such as a word processor, spreadsheet, presentation manager, formula editor and drawing program, with a user interface and feature set similar to other office suites.  Sophisticated and flexible, LibreOffice also works transparently with a variety of file formats, including Microsoft Office File Formats.
---
+
+<br>
+
+## Screen Tearing Fix for Intel Graphics
+More information on the [ArchWiki](https://wiki.archlinux.org/title/intel_graphics#Tearing).\
+Create a configuration file in `/etc/X11/xorg.conf.d` named `20-intel.conf`
+```bash
+sudo touch /etc/X11/xorg.conf.d/20-intel.conf
+```
+Add the following to the new configuration file:
+```bash
+Section "Device"
+  Identifier "Intel Graphics"
+  Driver "Intel"
+  Option "TearFree" "true"
+EndSection
+```
+`TearFree` may not work when `SwapbuffersWait` is `false`.\
+For Intel UHD 620 or 630 add `Option "TripleBuffer" "true"` to make `TearFree` work.
+
+Then logout and login.
 
 <br>
 
