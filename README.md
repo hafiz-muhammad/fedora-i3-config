@@ -152,7 +152,7 @@ It includes the key desktop applications, such as a word processor, spreadsheet,
 
 <br>
 
-## Screen Tearing Fix for Intel Graphics
+## Intel Screen Tearing Fix
 More information on the [ArchWiki](https://wiki.archlinux.org/title/intel_graphics#Tearing).\
 Create a configuration file in `/etc/X11/xorg.conf.d` named `20-intel.conf`
 ```bash
@@ -169,7 +169,17 @@ EndSection
 `TearFree` may not work when `SwapbuffersWait` is `false`.\
 For Intel UHD 620 or 630 add `Option "TripleBuffer" "true"` to make `TearFree` work.
 
-Then logout and login.
+Then reboot.
+
+## NVIDIA Screen Tearing Fix
+Install nvidia-settings and run it as sudo.
+```bash
+sudo dnf install nvidia-settings && nvidia-settings
+```
+- Go to **X Server Display Configuration > Advanced**
+- Enable **Force Full Composition Pipeline**
+- Apply and Save to Configuration File.
+- Reboot
 
 <br>
 
