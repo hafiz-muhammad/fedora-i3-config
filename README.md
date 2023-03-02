@@ -23,6 +23,8 @@
   - [Rofimoji](https://github.com/fdw/rofimoji) - Emoji, unicode and general character picker for rofi and rofi-likes.
   - [Greenclip](https://github.com/erebe/greenclip) - Simple clipboard manager to be integrated with rofi - Static binary available	
 - [xfce4-power-manager](https://src.fedoraproject.org/rpms/xfce4-power-manager) - Xfce Power Manager uses the information and facilities provided by HAL to display icons and handle user callbacks in an interactive Xfce session. Xfce Power Preferences allows authorised users to set policy and change preferences.
+- [Xbacklight](https://src.fedoraproject.org/rpms/xbacklight) - Xbacklight is used to adjust the backlight brightness where
+supported. It finds all outputs on the X server supporting backlight brightness control and changes them all in the same way.
 - [NetworkManager](https://src.fedoraproject.org/rpms/NetworkManager) - A system service that manages network interfaces and connections based on user or automatic configuration.
 - [nm-connection-editor](https://rpmfind.net/linux/rpm2html/search.php?query=nm-connection-editor&submit=Search+...&system=&arch=) - A network connection configuration editor for NetworkManager.
 - [nm-connection-editor-desktop](https://rpmfind.net/linux/rpm2html/search.php?query=nm-connection-editor-desktop&submit=Search+...&system=&arch=) - The desktop file for nm-connection-editor.
