@@ -263,7 +263,7 @@ sudo dnf group upgrade --with-optional Multimedia
 
 <br>
 
-## Intel Screen Tearing Fix
+## Intel - Screen Tearing Fix
 More information on the [ArchWiki](https://wiki.archlinux.org/title/intel_graphics#Tearing).\
 Create a configuration file in `/etc/X11/xorg.conf.d` named `20-intel.conf`
 ```bash
@@ -284,7 +284,7 @@ Then reboot.
 
 <br>
 
-## NVIDIA Screen Tearing Fix
+## NVIDIA - Screen Tearing Fix
 Install nvidia-settings and run it as sudo.
 ```bash
 sudo dnf install nvidia-settings && nvidia-settings
