@@ -96,6 +96,10 @@ hardening. Agentless, and installation optional.
 - [Starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 #### Gruvbox GTK Theme & Gruvbox Icons Theme
+ Install `gtk-murrine-engine`
+ ```bash
+ sudo dnf install gtk-murrine-engine
+ ```
 - [Gruvbox GTK Theme](https://www.xfce-look.org/p/1681313/) - Theme version: Gruvbox-Dark-BL
 - [Gruvbox Icons Theme](https://www.xfce-look.org/p/1681460/) - Icon pack version: Gruvbox-Dark
 
