@@ -95,9 +95,9 @@ hardening. Agentless, and installation optional.
 - [Oh My Posh](https://ohmyposh.dev/) - A prompt theme engine for any shell.
 - [Starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
-#### Gruvbox GTK Theme & Icon Pack
+#### Gruvbox GTK Theme & Gruvbox Icons Theme
 - [Gruvbox GTK Theme](https://www.xfce-look.org/p/1681313/) - Theme version: Gruvbox-Dark-BL
-- [Gruvbox Plus Icon Pack](https://www.xfce-look.org/p/1961046/)
+- [Gruvbox Icons Theme](https://www.xfce-look.org/p/1681460/) - Icon pack version: Gruvbox-Dark
 
 ## System Monitoring and Information Utilities
 - [htop](https://github.com/htop-dev/htop) - An interactive process viewer.     
