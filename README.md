@@ -67,6 +67,7 @@ unusually rich command set that provides both high-level operations and full acc
 - [Helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
 - [nano](https://www.nano-editor.org/) - GNU nano is a small editor for on the terminal.
 - [VSCodium](https://vscodium.com/) - Binary releases of VS Code without MS branding/telemetry/licensing.
+  - [Gruvbox Theme](https://open-vsx.org/extension/jdinhlife/gruvbox) - Color Theme: Gruvbox Dark Hard
 - [Geany](https://src.fedoraproject.org/rpms/geany) - Geany is a small and fast integrated development environment with basic
 features and few dependencies to other packages or Desktop Environments.
 
