@@ -294,7 +294,7 @@ Then reboot.
 <br>
 
 ## NVIDIA - Screen Tearing Fix
-Install nvidia-settings and run it as sudo.
+Install `nvidia-settings` and run it as sudo.
 ```bash
 sudo dnf install nvidia-settings && nvidia-settings
 ```
