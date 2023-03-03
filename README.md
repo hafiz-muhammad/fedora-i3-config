@@ -94,7 +94,11 @@ hardening. Agentless, and installation optional.
 - [Nerd Fonts](https://www.nerdfonts.com/) - Iconic font aggregator, collection, & patcher.
 - [Oh My Posh](https://ohmyposh.dev/) - A prompt theme engine for any shell.
 - [Starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
-   
+
+#### Gruvbox GTK Theme & Icon Pack
+- [Gruvbox GTK Theme](https://www.xfce-look.org/p/1681313/) - Theme version: Gruvbox-Dark-BL
+- [Gruvbox Plus Icon Pack](https://www.xfce-look.org/p/1961046/)
+
 ## System Monitoring and Information Utilities
 - [htop](https://github.com/htop-dev/htop) - An interactive process viewer.     
 - [btop](https://github.com/aristocratos/btop) - A monitor of resources
@@ -264,7 +268,7 @@ sudo dnf group upgrade --with-optional Multimedia
 <br>
 
 ## Intel - Screen Tearing Fix
-More information on the [ArchWiki](https://wiki.archlinux.org/title/intel_graphics#Tearing).\
+More information on the [ArchWiki](https://wiki.archlinux.org/title/intel_graphics#Tearing).<br>
 Create a configuration file in `/etc/X11/xorg.conf.d` named `20-intel.conf`
 ```bash
 sudo touch /etc/X11/xorg.conf.d/20-intel.conf
@@ -277,7 +281,7 @@ Section "Device"
   Option "TearFree" "true"
 EndSection
 ```
-`TearFree` may not work when `SwapbuffersWait` is `false`.\
+`TearFree` may not work when `SwapbuffersWait` is `false`.<br>
 For Intel UHD 620 or 630 add `Option "TripleBuffer" "true"` to make `TearFree` work.
 
 Then reboot.
