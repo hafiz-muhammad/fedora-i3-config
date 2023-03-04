@@ -16,7 +16,7 @@
 - [i3wm Documentation](https://i3wm.org/docs/)
 - [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
 
-## Essential Software & Utilities
+## Essential Software
 - [Polybar](https://github.com/polybar/polybar) - A fast and easy-to-use status bar. 
 - [Alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
 - [Rofi](https://github.com/davatorium/rofi) - A window switcher, application launcher and dmenu replacement.
