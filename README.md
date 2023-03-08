@@ -158,6 +158,9 @@ disk space and maintain privacy.
 - [GitHub Desktop](https://flathub.org/apps/details/io.github.shiftey.Desktop) - This version of GitHub Desktop is a fork that adds support for Linux.
 - [LibreOffice](https://src.fedoraproject.org/rpms/libreoffice) - LibreOffice is an Open Source, community-developed, office productivity suite.
 It includes the key desktop applications, such as a word processor, spreadsheet, presentation manager, formula editor and drawing program, with a user interface and feature set similar to other office suites.  Sophisticated and flexible, LibreOffice also works transparently with a variety of file formats, including Microsoft Office File Formats.
+- [prename](https://src.fedoraproject.org/rpms/prename) - Prename renames the file names supplied according to the rule specified as
+the first argument. The argument is a Perl expression which is expected
+to modify the $_ string for at least some of the file names specified.
 
 <br>
 
