@@ -7,7 +7,7 @@ configuration {
 	location: 0;
  	font: "FiraCode Nerd Font 12";
 	show-icons: true;
-	icon-theme: "Adwaita";
+	icon-theme: "Gruvbox-Dark";
  }
 
 @theme "~/.config/rofi/themes/gruvbox-custom.rasi"
